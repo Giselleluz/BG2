@@ -1,0 +1,25 @@
+body{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.texto{
+  font-size: 20px;
+  color: blueviolet;
+}
+
+.linkCss{
+  font-size: 24px;
+  display: flex;
+  justify-content: space-around;
+
+}
+
+.container{
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);  
+  gap: 16px;
+
+}
